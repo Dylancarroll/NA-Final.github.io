@@ -1,0 +1,23 @@
+body{
+  margin: 0pt;
+  background-color:#9a81b5;
+}
+
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.headTitle{
+  display: inline-block;
+}
+.Title{
+  display: inline-block;
+}
+p.serif {
+  font-family: "Times New Roman", Times, serif;
+}
+  div.a {
+  font-size: 45px;
+}

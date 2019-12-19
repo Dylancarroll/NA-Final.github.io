@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+
+<!--Meta content and links-->
+<head>
+  <!--Meta tags for SEO-->
+  <meta charset="UTF-8">
+  <meta name="description" content="The Nicholson Academy is the longest established performing arts school in the area. Est. 1982.
+                                    Classes in tap, ballet, modern jazz, street, drama, singing, Zumba, taekwondo, Pilates and much more!">
+  <meta name="keywords" content="dance, tap, ballet, modern jazz, street, drama, singing, Zumba, taekwondo, Pilates">
+  <meta name="author" content="Dylan Shakeshaft">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Links to external CSS-->
+  <link rel ="stylesheet" type="text/css" href="css/main.css">
+  <link rel ="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel ="stylesheet" type="text/css" href="css/sidenav.css">
+  <link rel ="stylesheet" type="text/css" href="css/slides.css">
+
+  <!--Title for browser tab-->
+  <title>The Nicholson Academy | Lessons</title>
+</head>
+
+<!--Main Content-->
+<body>
+  <!--Header-->
+  <div class="header">
+    <img class="logo" src="images/logoNA.PNG" alt="Nicholson Academy Logo" style="width:10%">
+    <h1 class ="headTitle">Lessons</h1>
+  </div>
+
+  <!--Main row-->
+  <div class="row">
+    <div class="col-9">
+      <!--Page content goes here-->
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="images/carouselImg04.PNG" alt="image1" style="width:100%">
+          <div class="text">The Nicholson Academy</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="images/carouselImg05.PNG" alt="image2" style="width:100%">
+          <div class="text">Dance</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="images/carouselImg06.PNG" alt="image3" style="width:100%">
+          <div class="text">Classes</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div><br>
+    <br>
+   <p>Some of the dances that we teach at our dance school would include
+   tap dancing, ballet, clubbercise and other forms of dance including Zumba
+   and other contemporay dances. for more information on this subject please refer to
+   the contact page for contact information.</p>
+  </div>
+
+  <div class="col-3 right">
+    <!--Navigation bar HTML-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="dates.html">Dates</a>
+      <a href="news.html">News</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+  </div>
+</div>
+
+
+<!--Links to external JS-->
+<script src = "js/sidenav.js"></script>
+<script src = "js/slides.js"></script>
+</body>
+</html>
